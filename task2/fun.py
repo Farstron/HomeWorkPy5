@@ -3,7 +3,7 @@ import random
 
 turn = lambda q: q+1 if q == 0 else q-1
 
-def Game(q, Players, level, count=221):
+def Game(q, Players, level, count=2021):
     if count > 0:
         print('Конфет осталось:', count)
         N = move(Players[q], level, count)
